@@ -1,0 +1,5 @@
+rootProject.name = 'example'
+include ':react-native-tcd-chat'
+project(':react-native-tcd-chat').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tcd-chat/android')
+
+include ':app'
