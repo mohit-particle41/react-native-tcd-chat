@@ -5,7 +5,8 @@ const { RNTcdChat } = NativeModules;
 
 export default {
     ping:function(){
-        console.log("Hi Hello", RNTcdChat.pingMe());
+        var checkSTR = RNTcdChat.pingMe();
+        console.log("Hi Hello", checkSTR);
     }
 
 }
