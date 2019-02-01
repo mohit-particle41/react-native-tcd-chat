@@ -22,6 +22,9 @@ class TcdChat extends Component {
     }
 
     render() {
+        RNTcdChat.pingMe(str => {
+            console.log("^^^^^^^^^^^^^",str)
+        })
         return (
          <React.Fragment />
         );
