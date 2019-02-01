@@ -3,7 +3,7 @@ import React from 'react';
 import { NativeModules } from 'react-native';
 const { RNTcdChat } = NativeModules;
 
-class TcdChat extends Component {
+export default class TcdChat extends Component {
     // ping:function(){
         
     //     RNTcdChat.pingMe(str => {
