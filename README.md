@@ -1,5 +1,5 @@
 
-# react-native-tcd-chat
+# react-native-tcd-chat- demo
 
 ## Getting started
 
